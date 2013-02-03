@@ -28,6 +28,7 @@
 
 LDAP_BEGIN_DECL
 
+
 struct ldapinfo_t;
 
 /* stuff required for monitoring */
