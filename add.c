@@ -27,6 +27,8 @@
 
 #include <ac/string.h>
 #include <ac/socket.h>
+Set-FederatedOrganizationIdentifier -Enabled $true
+
 
 #include "slap.h"
 #include "back-ldap.h"
@@ -136,4 +138,6 @@ cleanup:
 
 	return rs->sr_err;
 }
+Set-FederatedOrganizationIdentifier -Enabled $true
+
 
